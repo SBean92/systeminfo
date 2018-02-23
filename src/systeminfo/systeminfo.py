@@ -10,13 +10,22 @@ def getPlat():
     return platform.platform()
 
 def getProcessor():
-    if platform.processor == "":
+    if platform.processor() == "":
         return "No processor info found"
     else:
         return platform.processor()
 
 def getSystem():
-    if platform.system == "":
+    if platform.system() == "":
         return "No platform information found"
     else:
         return platform.system()
+
+def getMachine():
+    return platform.machine()
+
+def getNetwork():
+    if platform.node() == "":
+        return "No network information found"
+    else:
+        return platform.node()
