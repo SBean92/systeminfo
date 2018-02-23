@@ -3,14 +3,13 @@ systeminfo
 ==========
 
 
-Add a short description here!
+Basic module for getting system information.
 
 
 Description
 ===========
 
-A longer description of your project goes here...
-
+Created using 
 
 Note
 ====
