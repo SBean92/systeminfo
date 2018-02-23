@@ -1,6 +1,7 @@
 '''
-__Init__.py format from pyscaffold
-'''from pkg_resources import get_distribution, DistributionNotFound
+From pyscaffold
+'''
+from pkg_resources import get_distribution, DistributionNotFound
 
 try:
     # Change here if project is renamed and does not equal the package name
