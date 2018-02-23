@@ -20,6 +20,3 @@ def getSystem():
         return "No platform information found"
     else:
         return platform.system
-
-if __name__ == '__main__':
-    getPlat()
