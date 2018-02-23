@@ -6,9 +6,20 @@ Created on 20th Feb 2018 in Visual Studio Code
 '''
 import platform
 
-def sysInfo():
-    print(platform.platform())
-    return
+def getPlat():
+    return platform.platform()
+
+def getProcessor():
+    if platform.processor == "":
+        return "No processor info found"
+    else:
+        return platform.processor()
+
+def getSystem():
+    if platform.system == "":
+        return "No platform information found"
+    else:
+        return platform.system
 
 if __name__ == '__main__':
-    sysInfo()
+    getPlat()
