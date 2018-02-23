@@ -19,4 +19,4 @@ def getSystem():
     if platform.system == "":
         return "No platform information found"
     else:
-        return platform.system
+        return platform.system()
